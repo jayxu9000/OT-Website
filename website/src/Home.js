@@ -1,20 +1,8 @@
 const Home = () => {
 
-    const handleClick = () => {
-        console.log('hello, ninjas')
-    }
-
-    const handleClickAgain = (name) => {
-        console.log ('hello' + name)
-    }
-
     return ( 
         <div className="home">
-            <h2>Homepage</h2>
-            <button onClick={ handleClick() }>Click me</button>
-            <button onClick= { () => {
-                handleClickAgain('mario')
-            } }>Click me again</button>
+            <h2>"Whatsoever thy hand findeth to do, do it with thy might;.." <br /> Ecclesiastes 9:10</h2>
         </div>
      );
 }

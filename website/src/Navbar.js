@@ -1,7 +1,13 @@
+import COA from './COA.png'
+
 const Navbar = () => {
-    return ( 
-        <nav className="navbar">
-            <h1>Theta Tau Mu Gamma</h1>
+    return (
+        <nav className="navbar"> 
+        <img src={ COA } alt="" style={{width: '45px', height: 'auto'}}/>
+            <h1>Theta Tau 
+                <br />
+                <h2>Mu Gamma Chapter</h2>
+            </h1>
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/Rush" style={{
