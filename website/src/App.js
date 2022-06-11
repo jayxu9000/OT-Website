@@ -1,14 +1,37 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Rush from './Rush';
+import Brothers from './Brothers';
+import Alumni from './Alumni';
+import familyTree from './familyTree';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Home />
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/Rush">
+              <Rush />
+            </Route>
+            <Route path="/Brothers">
+              <Brothers />
+            </Route>
+            <Route path="/Alumni">
+              <Alumni />
+            </Route>
+            <Route path="/familyTree">
+              { familyTree }
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

@@ -3,18 +3,18 @@
   margin: 0;
   color: #333;
 }
+
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
   margin: 0 auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  border-bottom: 1px solid #f2f2f2;
 }
 
 .navbar h1 {
   font-size: xx-large;
-  color: #f1356d;
+  color: #800000;
   margin-left: 6px;
   margin-top: 6px;
 }
@@ -26,19 +26,117 @@
 
 .navbar .links {
   margin-left: auto;
+  display: flex;
+  padding: .75rem;
+  border-radius: .25rem;
 }
 
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
+  padding: .75rem;
+  border-radius: .25rem;
 }
 
-.navbar a:hover {
-  color: #f1356d;
+.navbar a:hover, .dropdown-select:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+  color: gold;
+  background-color: #800000;
 }
 
 .content {
-  text-align: center;
-  padding: 20px;
+  overflow: hidden;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.home {
+  display: flex;
+  background-color: #800000;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h1 {
+  color: #ffee00;
+  font-size: 60px;
+  padding: 16px;
+  margin-right: 16px;
+}
+
+.home h2 {
+  font-size: 30px;
+  color: black;
+  margin-right: 16px;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  display: flex;
+  position: relative;
+  width: 700px;
+  height: auto;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  width: 700px;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  30% {
+    left: 0%;
+  }
+  36% {
+    left: -100%;
+  }
+  63% {
+    left: -100%;
+  }
+  69% {
+    left: -200%;
+  }
+  97% {
+    left: -200%;
+  }
+}
+
+.dropdown {
+  position: relative;
+  top: .75rem;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 10%;
+  top: 74%;
+  background-color: white;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  z-index: 1;
+}
+
+.dropdown > a:hover + .dropdown-menu, .dropdown-menu:hover {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.dropdown-select {
+  display: flex;
+  position: relative;
+  left: -7.5%;
+}
+

@@ -1,4 +1,5 @@
-import COA from './COA.png'
+import COA from './COA.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -9,13 +10,20 @@ const Navbar = () => {
                 <h2>Mu Gamma Chapter</h2>
             </h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/Rush" style={{
-                    color: "white",
-                    backgroundColor: "#f1356d",
-                    borderRadius: '8px'
-                }}>Rush</a>
-                <a href="Brothers">Brothers</a>
+                <Link to="/">Home</Link>
+                <Link to="/Rush" >Rush</Link>
+                
+                
+                <div className='dropdown'>
+                    <Link to="/Brothers">Brothers</Link>
+                    <div className='dropdown-menu'>
+                        <Link to="/Brothers" className="dropdown-select" style={{top: "5px"}}>Actives</Link>
+                        <br />
+                        <Link to="/Alumni" className="dropdown-select">Alumni</Link>
+                        <br />
+                        <Link to="/familyTree" className="dropdown-select" style={{top: "-5px"}} >Family Tree</Link>
+                    </div>
+                </div>
             </div>
         </nav>
     );
