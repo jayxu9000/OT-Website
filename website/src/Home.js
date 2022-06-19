@@ -25,6 +25,8 @@ const Home = () => {
                 </body>
             </div>
 
+            <div> test</div>
+
             <div className="pillars">
                 <div className="brotherhood">
                     <h2 id ="brotherhood_title">Brotherhood</h2>
