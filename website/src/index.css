@@ -47,36 +47,46 @@
 .content {
   overflow: hidden;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  height: auto;
 }
 
-.home {
+.topPage {
   display: flex;
   background-color: #800000;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
-.home h1 {
-  color: #ffee00;
-  font-size: 60px;
-  padding: 16px;
-  margin-right: 16px;
+.title {
+  padding-right: 3vw;
+  padding-left: 3vw;
 }
 
-.home h2 {
-  font-size: 30px;
+.home .topPage h1 {
+  color: gold;
+  font-size: min(60px, 8vw);
+}
+
+.home .topPage h2 {
+  font-size: 2.2vw;
   color: black;
-  margin-right: 16px;
+  max-width: 40vw;
 }
 
 #slider {
   overflow: hidden;
+  width: 100%;
+  height: auto;
 }
 
 #slider figure {
   display: flex;
   position: relative;
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   height: auto;
   margin: 0;
   left: 0;
@@ -84,7 +94,9 @@
 }
 
 #slider figure img {
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
   float: left;
 }
 
@@ -140,3 +152,68 @@
   left: -7.5%;
 }
 
+.pillars {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.brotherhood {
+  width: 100%;
+  height: auto;
+}
+
+#brotherhood_title {
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+#brotherhood_description {
+  font-size: 14px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.professionalism {
+  width: 100%;
+  height: auto;
+}
+
+#professionalism_title {
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+#professionalism_description {
+  font-size: 14px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.service {
+  width: 100%;
+  height: auto;
+}
+
+#service_title {
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+#service_description {
+  font-size: 14px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}

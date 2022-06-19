@@ -1,9 +1,9 @@
-const familyTree = () => {
+const FamilyTree = () => {
     return ( 
-        <div className="familyTree">
+        <div className="FamilyTree">
             <h1>Family Tree</h1>
         </div>
      );
 }
  
-export default familyTree;
+export default FamilyTree;

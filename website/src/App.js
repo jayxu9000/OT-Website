@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Rush from './Rush';
 import Brothers from './Brothers';
 import Alumni from './Alumni';
-import familyTree from './familyTree';
+import FamilyTree from './FamilyTree';
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
             <Route path="/Alumni">
               <Alumni />
             </Route>
-            <Route path="/familyTree">
-              { familyTree }
+            <Route path="/FamilyTree">
+              <FamilyTree />
             </Route>
           </Switch>
         </div>
