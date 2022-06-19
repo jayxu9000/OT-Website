@@ -1,6 +1,10 @@
 import Home1 from "./Home1.jpg"
 import Home2 from "./Home2.jpg"
 import Home3 from "./Home3.jpg"
+import GE from "./Logos/GE.png"
+import Goldman_Sachs from "./Logos/Goldman_Sachs.png"
+import Meta from "./Logos/Meta.jpg"
+
 
 const Home = () => {
     return ( 
@@ -25,8 +29,6 @@ const Home = () => {
                 </body>
             </div>
 
-            <div> test</div>
-
             <div className="pillars">
                 <div className="brotherhood">
                     <h2 id ="brotherhood_title">Brotherhood</h2>
@@ -39,6 +41,18 @@ const Home = () => {
                 <div className="service">
                     <h2 id="service_title">Service</h2>
                     <p id="service_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div className="Companies_Section">
+                <center>
+                    <h2 className="Companies_Intro">Where our members work...</h2>
+                </center>
+                <div className="Company_Logos">
+                    <center>
+                        <img src= {GE} alt="" />
+                        <img src= {Goldman_Sachs} alt="" />
+                        <img src= {Meta} alt="" />
+                    </center>
                 </div>
             </div>
         </div>

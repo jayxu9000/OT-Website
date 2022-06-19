@@ -53,7 +53,7 @@
 
 .topPage {
   display: flex;
-  background-color: #800000;
+  background-color: #ECECEC;
   align-items: center;
   justify-content: center;
   max-width: 100%;
@@ -66,7 +66,7 @@
 }
 
 .home .topPage h1 {
-  color: gold;
+  color: #800000;
   font-size: min(60px, 8vw);
 }
 
@@ -159,10 +159,11 @@
   justify-content: center;
   width: 100%;
   height: auto;
+  padding-bottom: 4vw;
 }
 
 .brotherhood {
-  width: 100%;
+  width: 450px;
   height: auto;
 }
 
@@ -181,7 +182,7 @@
 }
 
 .professionalism {
-  width: 100%;
+  width: 450px;
   height: auto;
 }
 
@@ -200,7 +201,7 @@
 }
 
 .service {
-  width: 100%;
+  width: 450px;
   height: auto;
 }
 
@@ -216,4 +217,67 @@
   font-size: 14px;
   padding-left: 2vw;
   padding-right: 2vw;
+}
+
+.Companies_Section {
+  background-color: #ECECEC;
+  padding: 3vw;
+}
+
+.Company_Logos img {
+  width: 70px;
+  height: auto;
+  padding: 1vw
+}
+
+.Sections {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.Section1 {
+  padding-right: 5vw;
+}
+
+.Section1_Title {
+  display: flex;
+}
+
+.Sections .Section1 .Section1_Title img {
+  height: 30px;
+  width: auto;
+  padding-right: 5px;
+}
+
+.Section1_Title h1 {
+  font-size: 30px;
+  color: #ECECEC;
+}
+
+.Section1 h2 {
+  font-size: 15px;
+  margin-left: 22.5px;
+  color: #ECECEC;
+}
+
+.Section2 {
+  margin-top: 25px;
+  padding: 30px;
+  padding-left: 5vw;
+  color: #ECECEC;
+}
+
+.Section2 h1 {
+  font-size: 15px;
+  color: #ECECEC;
+}
+
+.Section2 h2 {
+  font-size: 10px;
+  padding-top: 5px;
+  color: #ECECEC;
 }

@@ -5,6 +5,7 @@ import Rush from './Rush';
 import Brothers from './Brothers';
 import Alumni from './Alumni';
 import FamilyTree from './FamilyTree';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );
