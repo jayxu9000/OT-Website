@@ -268,15 +268,33 @@
   margin-top: 25px;
   padding: 30px;
   padding-left: 5vw;
-  color: #ECECEC;
 }
 
 .Section2 h1 {
+  padding-bottom: 1vw;
   font-size: 15px;
   color: #ECECEC;
 }
 
 .Section2 h2 {
+  font-size: 10px;
+  padding-top: 5px;
+  color: #ECECEC;
+}
+
+.Section3 {
+  margin-top: 25px;
+  padding: 30px;
+  padding-left: 5vw;
+}
+
+.Section3 h1 {
+  padding-bottom: 1vw;
+  font-size: 15px;
+  color: #ECECEC;
+}
+
+.Section3 h2 {
   font-size: 10px;
   padding-top: 5px;
   color: #ECECEC;
