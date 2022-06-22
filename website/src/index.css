@@ -338,13 +338,14 @@
 .Profile {
   width: 250px;
   padding-bottom: 2vw;
+  transition: .3s ease;
 }
 
 .Profile img {
   width: 150px;
 }
 
-.Semester_Class h3 {
+.Semester_Class h3, .Rush_Timeline {
   padding-top: 3vw;
   padding-bottom: 2vw;
 }
