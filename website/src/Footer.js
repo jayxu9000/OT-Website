@@ -19,7 +19,7 @@ const Footer = () => {
                     <h2>Committee Heads</h2>
                 </div>
                 <div className="Section3">
-                    <h1>Contacts</h1>
+                    <h1>Contact</h1>
                     <h2>testing123@gmail.com</h2>
                     <h2>Instagram</h2>
                     <h2>LinkedIn</h2>

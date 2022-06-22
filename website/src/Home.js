@@ -4,7 +4,8 @@ import Home3 from "./Home3.jpg"
 import GE from "./Logos/GE.png"
 import Goldman_Sachs from "./Logos/Goldman_Sachs.png"
 import Meta from "./Logos/Meta.jpg"
-
+import MT from "./Logos/M&T_Bank.png"
+import Greenbox from "./Logos/Greenbox.png"
 
 const Home = () => {
     return ( 
@@ -49,9 +50,11 @@ const Home = () => {
                 </center>
                 <div className="Company_Logos">
                     <center>
-                        <img src= {GE} alt="" />
-                        <img src= {Goldman_Sachs} alt="" />
-                        <img src= {Meta} alt="" />
+                        <img className="Regular" src= {GE} alt="" />
+                        <img className="Regular"src= {Goldman_Sachs} alt="" />
+                        <img className="Regular" src= {Meta} alt="" />
+                        <img className="Wide_Logo" src= {MT} alt="" />
+                        <img className="Wide_Logo" src= {Greenbox} alt="" />
                     </center>
                 </div>
             </div>

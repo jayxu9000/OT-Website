@@ -21,7 +21,7 @@ const Navbar = () => {
                         <br />
                         <Link to="/Alumni" className="dropdown-select">Alumni</Link>
                         <br />
-                        <Link to="/familyTree" className="dropdown-select" style={{top: "-5px"}} >Family Tree</Link>
+                        <Link to="/FamilyTree" className="dropdown-select" style={{top: "-5px"}} >Family Tree</Link>
                     </div>
                 </div>
             </div>

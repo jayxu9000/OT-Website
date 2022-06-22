@@ -6,11 +6,15 @@ import Brothers from './Brothers';
 import Alumni from './Alumni';
 import FamilyTree from './FamilyTree';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Helmet>
+          <title>UB Theta Tau</title>
+        </Helmet>
         <Navbar />
         <div className="content">
           <Switch>
