@@ -315,13 +315,13 @@
   padding-bottom: 3vw;
 }
 
-.Brothers_TopPage, .Rush_TopPage {
+.Brothers_TopPage, .Rush_TopPage, .Alumni_TopPage {
   background-color: #ECECEC;
   padding: 5vw;
   
 }
 
-.Brothers_TopPage h1, .Rush_TopPage h1 {
+.Brothers_TopPage h1, .Rush_TopPage h1, .Alumni_TopPage h1 {
   font-size: 100px;
   color:#800000;
 }
@@ -345,7 +345,7 @@
   width: 150px;
 }
 
-.Semester_Class h3, .Rush_Timeline {
+.Semester_Class h3, .Rush_Timeline, .Alumni_List {
   padding-top: 3vw;
   padding-bottom: 2vw;
 }

@@ -12,7 +12,7 @@ const Brothers = () => {
                 </center>
             </div>
 
-            <div className="Brothers">
+            <div className="Brothers_List">
                 <center>
                     <div className="Semester_Class">
                         <h3>Spring 2020</h3>
@@ -20,7 +20,7 @@ const Brothers = () => {
                             <div className="Profile">
                                 <strong><img src= {PFP} alt="" /></strong>
                                 <p>Felix Bermudez</p>
-                                <p>Aerospace Engineering BS, 202?</p>
+                                <p>Aerospace Engineering BS, 2023</p>
                             </div>
                             <div className="Profile">
                                 <strong><img src= {PFP} alt="" /></strong>
@@ -30,7 +30,7 @@ const Brothers = () => {
                             <div className="Profile">
                                 <strong><img src= {PFP} alt="" /></strong>
                                 <p>David Zaretsky</p>
-                                <p>Biomedical Engineering BS, 202?</p>
+                                <p>Biomedical Engineering BS, 2022</p>
                             </div>     
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Brothers = () => {
                         <div className="FiveGroup">
                             <div className="Profile">
                                 <strong><img src= {PFP} alt="" /></strong>
-                                <p>Elise Bittlingmaier</p>
+                                <p>Elise Dougherty</p>
                                 <p>Chemical Engineering BS, 2024</p>
                             </div>
                             <div className="Profile">
@@ -58,12 +58,6 @@ const Brothers = () => {
                             <div className="Profile">
                                 <strong><img src= {PFP} alt="" /></strong>
                                 <p>Max Gustin</p>
-                                <p>Electrical Engineering BS, 2024</p>
-                            </div>
-                            
-                            <div className="Profile">
-                                <strong><img src= {PFP} alt="" /></strong>
-                                <p>Erin Lum</p>
                                 <p>Electrical Engineering BS, 2024</p>
                             </div>
                             
