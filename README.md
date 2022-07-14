@@ -1,3 +1,3 @@
 # OT Website
  
-# Organizational Website
+Organizational Website
