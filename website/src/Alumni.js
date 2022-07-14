@@ -5,7 +5,7 @@ const Alumni = () => {
         <div className="Alumni">
             <div className="Alumni_TopPage">
                 <center>
-                    <h1>Almuni</h1>
+                    <h1>Alumni</h1>
                     <h2>Meet the Alumni of Theta Tau</h2>
                 </center>
             </div>
@@ -93,8 +93,8 @@ const Alumni = () => {
                             </div> 
                             <div className="Profile">
                                 <strong><img src= {PFP} alt="" /></strong>
-                                <p>Mohamed Abheghani</p>
-                                <p>Industrial Engineering BS, 2022</p>
+                                <p>Mohamed Abdelgani</p>
+                                <p>Mechanical &#38; Aerospace Engineering BS, 202?</p>
                             </div>
                                   
                         </div>
