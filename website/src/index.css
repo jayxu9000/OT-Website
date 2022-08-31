@@ -153,6 +153,7 @@
 }
 
 .pillars {
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -172,7 +173,28 @@
   width: 100%;
   height: auto;
   padding-left: 2vw;
+  padding-top: 1vw;
+}
+
+#brotherhood_image {
   padding-top: 2vw;
+  width: 400px;
+  height: auto;
+  padding-left: 2vw;
+}
+
+#professionalism_image {
+  padding-top: 2vw;
+  width: 400px;
+  height: auto;
+  padding-left: 2vw;
+}
+
+#service_image {
+  padding-top: 2vw;
+  width: 400px;
+  height: auto;
+  padding-left: 2vw;
 }
 
 #brotherhood_description {
@@ -191,7 +213,7 @@
   width: 100%;
   height: auto;
   padding-left: 2vw;
-  padding-top: 2vw;
+  padding-top: 1vw;
 }
 
 #professionalism_description {
@@ -210,7 +232,7 @@
   width: 100%;
   height: auto;
   padding-left: 2vw;
-  padding-top: 2vw;
+  padding-top: 1vw;
 }
 
 #service_description {
@@ -221,7 +243,7 @@
 
 .Companies_Section {
   background-color: #ECECEC;
-  padding: 4.5vw;
+  padding: 1.5vw;
 }
 
 .Regular {
@@ -309,6 +331,7 @@
 }
 
 .Rush_Poster {
+  padding-top: 3vw;
   display: absolute;
   width: 25vw;
   height: auto;

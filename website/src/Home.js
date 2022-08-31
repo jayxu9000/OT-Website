@@ -5,9 +5,11 @@ import GE from "./Logos/GE.png"
 import Goldman_Sachs from "./Logos/Goldman_Sachs.png"
 import Meta from "./Logos/Meta.jpg"
 import MT from "./Logos/M&T_Bank.png"
-import Greenbox from "./Logos/Greenbox.png"
 import Eversource from "./Logos/Eversource.jpg"
 import GD from "./Logos/GD.png"
+import brotherhood from "./brotherhood.jpg"
+import professionalism from "./professionalism.jpg"
+import service from "./service.jpg"
 
 const Home = () => {
     return ( 
@@ -32,20 +34,26 @@ const Home = () => {
                 </body>
             </div>
 
+            
+
             <div className="pillars">
                 <div className="brotherhood">
+                    <img id ="brotherhood_image" src = {brotherhood} alt="" />
                     <h2 id ="brotherhood_title">Brotherhood</h2>
                     <p id="brotherhood_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="professionalism">
+                    <img id ="professionalism_image" src = {professionalism} alt="" />
                     <h2 id="professionalism_title">Professionalism</h2>
                     <p id="professionalism_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="service">
+                    <img id ="service_image" src = {service} alt="" />
                     <h2 id="service_title">Service</h2>
                     <p id="service_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
+
             <div className="Companies_Section">
                 <center>
                     <h2 className="Companies_Intro">Where our members work...</h2>
@@ -58,10 +66,10 @@ const Home = () => {
                         <img className="Regular" src= {Eversource} alt="" />
                         <img className="Regular" src= {GD} alt="" />
                         <img className="Wide_Logo" src= {MT} alt="" />
-                        <img className="Wide_Logo" src= {Greenbox} alt="" />
                     </center>
                 </div>
             </div>
+            
         </div>
     );
 }

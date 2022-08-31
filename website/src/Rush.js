@@ -10,7 +10,6 @@ const Rush = () => {
                 </center>
             </div>
             <center>
-                <h3 className="Rush_Timeline">Rush Timeline</h3>
                 <img className="Rush_Poster" src= {Rush_Poster} alt=""/>
             </center>
         </div>

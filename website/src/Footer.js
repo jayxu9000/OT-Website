@@ -20,9 +20,9 @@ const Footer = () => {
                 </div>
                 <div className="Section3">
                     <h1>Contact</h1>
-                    <h2>testing123@gmail.com</h2>
-                    <h2>Instagram</h2>
-                    <h2>LinkedIn</h2>
+                    <h2>mgthetatau@gmail.com</h2>
+                    <a href="https://www.instagram.com/ub_theta_tau/"><h2>Instagram</h2></a>
+                    <a href="https://www.linkedin.com/groups/12533335/"><h2>LinkedIn</h2></a>
                 </div>
              </div>
         </div>
