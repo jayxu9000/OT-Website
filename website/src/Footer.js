@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
                 <div className="Section2">
                     <h1>General</h1>
-                    <h2>National Theta Tau</h2>
+                    <a href="https://thetatau.org"><h2>National Theta Tau</h2></a>
                     <h2>Executive Board</h2>
                     <h2>Committee Heads</h2>
                 </div>
