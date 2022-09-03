@@ -38,19 +38,15 @@ const Home = () => {
 
             <div className="pillars">
                 <div className="brotherhood">
-                    <img id ="brotherhood_image" src = {brotherhood} alt="" />
-                    <h2 id ="brotherhood_title">Brotherhood</h2>
-                    <p id="brotherhood_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
+                    <img className="brotherhood_image" src = {brotherhood} alt="" />
+                    <div className="image_overlay">Brotherhood</div>
                 <div className="professionalism">
-                    <img id ="professionalism_image" src = {professionalism} alt="" />
-                    <h2 id="professionalism_title">Professionalism</h2>
-                    <p id="professionalism_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <img className="professionalism_image" src = {professionalism} alt="" />
+                    <h2 className="professionalism_title">Professionalism</h2>
                 </div>
                 <div className="service">
-                    <img id ="service_image" src = {service} alt="" />
-                    <h2 id="service_title">Service</h2>
-                    <p id="service_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <img className="service_image" src = {service} alt="" />
+                    <h2 className="service_title">Service</h2>
                 </div>
             </div>
 

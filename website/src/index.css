@@ -152,8 +152,30 @@
   left: -7.5%;
 }
 
+.brotherhood {
+  position: relative;
+  text-align: center;
+}
+
+#brotherhood_image {
+  padding-top: 5vw;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+#brotherhood_title {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+/*
 .pillars {
-  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -169,6 +191,8 @@
 }
 
 #brotherhood_title {
+  position: absolute;
+  left: 25%;
   font-size: 30px;
   width: 100%;
   height: auto;
@@ -180,7 +204,6 @@
   padding-top: 2vw;
   width: 400px;
   height: auto;
-  padding-left: 2vw;
 }
 
 #professionalism_image {
@@ -197,12 +220,6 @@
   padding-left: 2vw;
 }
 
-#brotherhood_description {
-  font-size: 14px;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
 .professionalism {
   width: 450px;
   height: auto;
@@ -214,12 +231,6 @@
   height: auto;
   padding-left: 2vw;
   padding-top: 1vw;
-}
-
-#professionalism_description {
-  font-size: 14px;
-  padding-left: 2vw;
-  padding-right: 2vw;
 }
 
 .service {
@@ -234,13 +245,7 @@
   padding-left: 2vw;
   padding-top: 1vw;
 }
-
-#service_description {
-  font-size: 14px;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
+*/
 .Companies_Section {
   background-color: #ECECEC;
   padding: 1.5vw;
@@ -371,4 +376,7 @@
 .Semester_Class h3, .Rush_Timeline, .Alumni_List {
   padding-top: 3vw;
   padding-bottom: 2vw;
+}
+
+@media only screen and (max-width: 400px) {
 }
