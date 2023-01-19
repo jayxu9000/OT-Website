@@ -1,5 +1,4 @@
 import PFP from "./PFP.png"
-import YX_PFP from "./PFP/YX_PFP.jpg"
 import YX_Resume from "./Resumes/YX_Resume.pdf"
 
 const Brothers = () => {
