@@ -224,7 +224,67 @@ const Brothers = () => {
                             
                         </div>
                     </div>
+
+                    <div className="Semester_Class">
+                        <h3>Fall 2022</h3>
+                        <div className="FiveGroup">
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Zachary Clark</p>
+                                <p>Civil Engineering BS, 202?</p>
+                            </div>
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Lydia Cenac</p>
+                                <p>Computer Science BS, 2026</p>
+                            </div>
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Aryaman Ghosh</p>
+                                <p>Computer Science BS, 2024</p>
+                            </div>
+                            
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Anna Kane</p>
+                                <p>Mechanical Engineering BS, 2024</p>
+                            </div>
+                            
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>James Henry</p>
+                                <p>Chemical Engineering BS, 2025</p>
+                            </div>
+                        </div>
+
+                        <div className="FiveGroup">
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Isabella Nguyen</p>
+                                <p>Electrical Engineering BS, 2025</p>
+                            </div>
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Rrucha Singh</p>
+                                <p>Computer Science BS, 2024</p>
+                            </div>
+                            
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Hao Zhu</p>
+                                <p>Computer Science BS, 2025</p>
+                            </div>
+                            
+                            <div className="Profile">
+                                <strong><img src= {PFP} alt="" /></strong>
+                                <p>Jenny Zhu</p>
+                                <p>Electrical Engineering BS, 2025</p>
+                            </div>
+                            
+                            
+                        </div>
                         
+                    </div>
                 </center>
             </div>
             

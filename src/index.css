@@ -290,10 +290,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color:#800000;
+  padding: 3vw;
 }
 
 .pillar_image {
   width: 40vw;
   padding-top: 3vw;
   padding-bottom: 3vw;
+}
+
+.Pillars h1 {
+  color: #800000;
+  -webkit-text-stroke: 0.075vw gold;
 }
