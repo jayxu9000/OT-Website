@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/OT-Website/static/css/main.49ecc470.css",
-    "main.js": "/OT-Website/static/js/main.de1eee17.js",
+    "main.css": "/OT-Website/static/css/main.e06d0084.css",
+    "main.js": "/OT-Website/static/js/main.6946be3d.js",
+    "static/media/Initiation.JPG": "/OT-Website/static/media/Initiation.cca68bf17ca25cd06314.JPG",
     "static/media/Home3.jpg": "/OT-Website/static/media/Home3.858d2af5287f4c9dccc5.jpg",
     "static/media/Home2.jpg": "/OT-Website/static/media/Home2.da420c73cf2a8be66965.jpg",
     "static/media/Rush_Poster.png": "/OT-Website/static/media/Rush_Poster.f0ea87442ef697ce75c3.png",
@@ -9,6 +10,7 @@
     "static/media/Home1.jpg": "/OT-Website/static/media/Home1.2167b15bbcbfa4b229f7.jpg",
     "static/media/pillars.png": "/OT-Website/static/media/pillars.55ab4e0b91b7202d2e3c.png",
     "static/media/GE.png": "/OT-Website/static/media/GE.e944e8d12493b44e7729.png",
+    "static/media/Cognizant.jpg": "/OT-Website/static/media/Cognizant.dd9b02473f89473faa43.jpg",
     "static/media/GD.png": "/OT-Website/static/media/GD.476470c7c53d2f1ef6fa.png",
     "static/media/Meta.jpg": "/OT-Website/static/media/Meta.6b7520ec67317730ad92.jpg",
     "static/media/COA.png": "/OT-Website/static/media/COA.35e08d5037cad5db337c.png",
@@ -16,11 +18,11 @@
     "static/media/M&T_Bank.png": "/OT-Website/static/media/M&T_Bank.56c46aebfa205a26f17e.png",
     "static/media/Eversource.jpg": "/OT-Website/static/media/Eversource.de108d8ecfda41078d74.jpg",
     "index.html": "/OT-Website/index.html",
-    "main.49ecc470.css.map": "/OT-Website/static/css/main.49ecc470.css.map",
-    "main.de1eee17.js.map": "/OT-Website/static/js/main.de1eee17.js.map"
+    "main.e06d0084.css.map": "/OT-Website/static/css/main.e06d0084.css.map",
+    "main.6946be3d.js.map": "/OT-Website/static/js/main.6946be3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ecc470.css",
-    "static/js/main.de1eee17.js"
+    "static/css/main.e06d0084.css",
+    "static/js/main.6946be3d.js"
   ]
 }
