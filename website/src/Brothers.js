@@ -210,7 +210,7 @@ const Brothers = () => {
                             </div>
                             
                             <div className="Profile">
-                                <img src= {YX_PFP} alt="" />
+                                <img src= {PFP} alt="" />
                                 <strong><p>Yuanjie Xu</p></strong>
                                 <p>Computer Science BS, 2024</p>
                                 <a href="https://www.linkedin.com/in/yuanjiexu/">LinkedIn</a><br />

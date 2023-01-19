@@ -1,7 +1,7 @@
 /* base styles */
 * {
   margin: 0;
-  color: #333;
+  color: black;
 }
 
 .navbar {
@@ -10,11 +10,12 @@
   align-items: center;
   margin: 0 auto;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #800000;
 }
 
 .navbar h1 {
   font-size: xx-large;
-  color: #800000;
+  color: gold;
   margin-left: 6px;
   margin-top: 6px;
 }
@@ -36,12 +37,13 @@
   text-decoration: none;
   padding: .75rem;
   border-radius: .25rem;
+  color: gold;
 }
 
 .navbar a:hover, .dropdown-select:hover {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-  color: gold;
-  background-color: #800000;
+  color: #800000;
+  background-color: gold;
 }
 
 .content {
@@ -173,79 +175,6 @@
   top: 55%;
   transform: translate(-50%, -50%);
 }
-
-/*
-.pillars {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  padding-bottom: 4vw;
-}
-
-.brotherhood {
-  width: 450px;
-  height: auto;
-}
-
-#brotherhood_title {
-  position: absolute;
-  left: 25%;
-  font-size: 30px;
-  width: 100%;
-  height: auto;
-  padding-left: 2vw;
-  padding-top: 1vw;
-}
-
-#brotherhood_image {
-  padding-top: 2vw;
-  width: 400px;
-  height: auto;
-}
-
-#professionalism_image {
-  padding-top: 2vw;
-  width: 400px;
-  height: auto;
-  padding-left: 2vw;
-}
-
-#service_image {
-  padding-top: 2vw;
-  width: 400px;
-  height: auto;
-  padding-left: 2vw;
-}
-
-.professionalism {
-  width: 450px;
-  height: auto;
-}
-
-#professionalism_title {
-  font-size: 30px;
-  width: 100%;
-  height: auto;
-  padding-left: 2vw;
-  padding-top: 1vw;
-}
-
-.service {
-  width: 450px;
-  height: auto;
-}
-
-#service_title {
-  font-size: 30px;
-  width: 100%;
-  height: auto;
-  padding-left: 2vw;
-  padding-top: 1vw;
-}
-*/
 .Companies_Section {
   background-color: #ECECEC;
   padding: 1.5vw;
@@ -271,50 +200,21 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #800000;
 }
 
 .Section1 {
   padding-right: 5vw;
 }
 
-.Section1_Title {
-  display: flex;
-}
-
-.Sections .Section1 .Section1_Title img {
-  height: 30px;
-  width: auto;
-  padding-right: 5px;
-}
-
-.Section1_Title h1 {
+.Section1 h1 {
   font-size: 30px;
-  color: white;
+  color: gold;
 }
 
 .Section1 h2 {
   font-size: 15px;
-  margin-left: 22.5px;
-  color: #ECECEC;
-}
-
-.Section2 {
-
-  padding: 30px;
-  padding-left: 5vw;
-}
-
-.Section2 h1 {
-  padding-bottom: 1vw;
-  font-size: 18px;
-  color: white;
-}
-
-.Section2 h2 {
-  font-size: 12px;
-  padding-top: 5px;
-  color: #ECECEC;
+  color: black;
 }
 
 .Section3 {
@@ -324,15 +224,20 @@
 }
 
 .Section3 h1 {
-  padding-bottom: 1vw;
   font-size: 18px;
-  color: white;
+  color: gold;
 }
 
 .Section3 h2 {
   font-size: 12px;
   padding-top: 5px;
-  color: #ECECEC;
+  color: black;
+}
+
+.Section3 h2:hover {
+  font-size: 12px;
+  padding-top: 5px;
+  color: gold;
 }
 
 .Rush_Poster {
@@ -379,4 +284,16 @@
 }
 
 @media only screen and (max-width: 400px) {
+}
+
+.Pillars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pillar_image {
+  width: 40vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }

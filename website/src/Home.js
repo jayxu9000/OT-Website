@@ -7,9 +7,7 @@ import Meta from "./Logos/Meta.jpg"
 import MT from "./Logos/M&T_Bank.png"
 import Eversource from "./Logos/Eversource.jpg"
 import GD from "./Logos/GD.png"
-import brotherhood from "./brotherhood.jpg"
-import professionalism from "./professionalism.jpg"
-import service from "./service.jpg"
+import pillars from "./pillars.png"
 
 const Home = () => {
     return ( 
@@ -18,7 +16,7 @@ const Home = () => {
             <div className="topPage">
 
                 {/* Title */}
-                <div className="title"><h1>Theta Tau <br /> <h2>Professional Co-Ed Engineering Fraternity at the University At Buffalo</h2></h1></div>
+                <div className="title"><h1>Theta Tau <br /> <h2>Professional Co-Ed Engineering Fraternity</h2></h1></div>
 
                 <body>
 
@@ -34,20 +32,11 @@ const Home = () => {
                 </body>
             </div>
 
-            
-
-            <div className="pillars">
-                <div className="brotherhood">
-                    <img className="brotherhood_image" src = {brotherhood} alt="" />
-                    <div className="image_overlay">Brotherhood</div>
-                <div className="professionalism">
-                    <img className="professionalism_image" src = {professionalism} alt="" />
-                    <h2 className="professionalism_title">Professionalism</h2>
-                </div>
-                <div className="service">
-                    <img className="service_image" src = {service} alt="" />
-                    <h2 className="service_title">Service</h2>
-                </div>
+            <div className="Pillars">
+                    <img className="pillar_image" src={pillars} alt="" />
+                    <div>
+                        <h1>Brothers</h1>
+                    </div>
             </div>
 
             <div className="Companies_Section">

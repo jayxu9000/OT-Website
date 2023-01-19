@@ -7,12 +7,13 @@ const Navbar = () => {
         <img src={ COA } alt="" style={{width: '45px', height: 'auto'}}/>
             <h1>Theta Tau 
                 <br />
-                <h2>Mu Gamma Chapter</h2>
+                <h2>Mu Gamma Chapter | University At Buffalo</h2>
             </h1>
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/Rush" >Rush</Link>
-                
+                <Link to="/Brothers">Brothers</Link>
+                {/**
                 <div className='dropdown'>
                     <Link to="/Brothers">Brothers</Link>
                     <div className='dropdown-menu'>
@@ -20,8 +21,10 @@ const Navbar = () => {
                         <br />
                         <Link to="/Alumni" className="dropdown-select">Alumni</Link>
                         <br />
+                        
                     </div>
                 </div>
+                */}
             </div>
         </nav>
     );
