@@ -10,7 +10,7 @@ const Navbar = () => {
                 <h2>Mu Gamma Chapter | University At Buffalo</h2>
             </h1>
             <div className="links">
-                <Link to="/">Home</Link>
+                <Link to="/OT-Website">Home</Link>
                 <Link to="/Rush" >Rush</Link>
                 <Link to="/Brothers">Brothers</Link>
                 {/**
