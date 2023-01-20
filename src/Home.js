@@ -1,6 +1,5 @@
 import Home1 from "./Home1.jpg"
 import Home2 from "./Home2.jpg"
-import Home3 from "./Home3.jpg"
 import Initiation from "./Initiation.JPG"
 import GE from "./Logos/GE.png"
 import Goldman_Sachs from "./Logos/Goldman_Sachs.png"
@@ -10,7 +9,12 @@ import Eversource from "./Logos/Eversource.jpg"
 import GD from "./Logos/GD.png"
 import Cog from "./Logos/Cognizant.jpg"
 import pillars from "./pillars.png"
-
+import PhotoPatch from "./PhotoPatch.png"
+import SRC from "./Logos/SRC.png"
+import OCWA from "./Logos/OCWA.png"
+import AAR from "./Logos/AAR.jpg"
+import AM from "./Logos/AM.png"
+import Linde from "./Logos/Linde.jpg"
 
 const Home = () => {
     return ( 
@@ -26,10 +30,10 @@ const Home = () => {
                     {/* Image Carousel */}
                     <div id="slider">
                         <figure>
+                            <img src={PhotoPatch} alt="" />
                             <img src={Initiation} alt=""/>
                             <img src={Home1} alt=""/>
                             <img src={Home2} alt=""/>
-                            <img src={Home3} alt=""/>
                         </figure>
                     </div>
 
@@ -49,24 +53,32 @@ const Home = () => {
                         <h4>We are known for our service to our college, university, and the larger community. Our service projects create a unifying environment for learning and personal growth.</h4>
                     </div>
             </div>
-
-            <div className="Companies_Section">
-                <center>
-                    <h2 className="Companies_Intro">Where our members work...</h2>
-                </center>
-                <div className="Company_Logos">
+            <center>
+                <div className="Companies_Section">
                     <center>
-                        <img className="Regular" src= {GE} alt="" />
-                        <img className="Regular"src= {Goldman_Sachs} alt="" />
-                        <img className="Regular" src= {Meta} alt="" />
-                        <img className="Regular" src= {Eversource} alt="" />
-                        <img className="Regular" src= {GD} alt="" />
-                        <img className="Wide_Logo" src= {MT} alt="" />
-                        <img className="Wide_Logo" src= {Cog} alt="" />
+                        <h2 className="Companies_Intro">Where our members work...</h2>
                     </center>
+                    <div className="Company_Logos">
+                        <center>
+                            <img className="Regular" src= {GE} alt="" />
+                            <img className="Regular"src= {Goldman_Sachs} alt="" />
+                            <img className="Regular" src= {Meta} alt="" />
+                            <img className="Regular" src= {Eversource} alt="" />
+                            <img className="Regular" src= {SRC} alt="" />
+                            <img className="Regular" src= {AAR} alt="" />
+                            <img className="Regular" src= {GD} alt="" />
+                            <img className="Regular" src= {Linde} alt="" />
+                            <img className="Wide_Logo" src= {MT} alt="" />
+                            <img className="Wide_Logo" src= {Cog} alt="" />
+                            <img className="Wide_Logo" src= {OCWA} alt="" />
+                            <img className="Wide_Logo" src= {AM} alt="" />
+                        </center>
+                    </div>
+                    
                 </div>
-            </div>
-            
+                
+            </center>
+             
         </div>
     );
 }
