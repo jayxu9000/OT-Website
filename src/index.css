@@ -301,6 +301,5 @@
 }
 
 .Pillars h1 {
-  color: #800000;
-  -webkit-text-stroke: 0.075vw gold;
+  color: gold;
 }
