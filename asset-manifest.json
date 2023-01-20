@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/OT-Website/static/css/main.e06d0084.css",
-    "main.js": "/OT-Website/static/js/main.6946be3d.js",
+    "main.css": "/OT-Website/static/css/main.945d228a.css",
+    "main.js": "/OT-Website/static/js/main.10e27689.js",
     "static/media/Initiation.JPG": "/OT-Website/static/media/Initiation.cca68bf17ca25cd06314.JPG",
-    "static/media/Home3.jpg": "/OT-Website/static/media/Home3.858d2af5287f4c9dccc5.jpg",
+    "static/media/PhotoPatch.png": "/OT-Website/static/media/PhotoPatch.944cad3359efbd99faab.png",
     "static/media/Home2.jpg": "/OT-Website/static/media/Home2.da420c73cf2a8be66965.jpg",
     "static/media/Rush_Poster.png": "/OT-Website/static/media/Rush_Poster.f0ea87442ef697ce75c3.png",
     "static/media/YX_Resume.pdf": "/OT-Website/static/media/YX_Resume.ea2dcbc82820927e668a.pdf",
@@ -12,17 +12,20 @@
     "static/media/GE.png": "/OT-Website/static/media/GE.e944e8d12493b44e7729.png",
     "static/media/Cognizant.jpg": "/OT-Website/static/media/Cognizant.dd9b02473f89473faa43.jpg",
     "static/media/GD.png": "/OT-Website/static/media/GD.476470c7c53d2f1ef6fa.png",
+    "static/media/AM.png": "/OT-Website/static/media/AM.509bdaac37ab9e5a726e.png",
     "static/media/Meta.jpg": "/OT-Website/static/media/Meta.6b7520ec67317730ad92.jpg",
+    "static/media/OCWA.png": "/OT-Website/static/media/OCWA.0df3faf5ce8e6489b468.png",
     "static/media/COA.png": "/OT-Website/static/media/COA.35e08d5037cad5db337c.png",
     "static/media/Goldman_Sachs.png": "/OT-Website/static/media/Goldman_Sachs.5ddd99c624267cbef0a2.png",
     "static/media/M&T_Bank.png": "/OT-Website/static/media/M&T_Bank.56c46aebfa205a26f17e.png",
     "static/media/Eversource.jpg": "/OT-Website/static/media/Eversource.de108d8ecfda41078d74.jpg",
+    "static/media/AAR.jpg": "/OT-Website/static/media/AAR.abd7da4f951308a35c45.jpg",
     "index.html": "/OT-Website/index.html",
-    "main.e06d0084.css.map": "/OT-Website/static/css/main.e06d0084.css.map",
-    "main.6946be3d.js.map": "/OT-Website/static/js/main.6946be3d.js.map"
+    "main.945d228a.css.map": "/OT-Website/static/css/main.945d228a.css.map",
+    "main.10e27689.js.map": "/OT-Website/static/js/main.10e27689.js.map"
   },
   "entrypoints": [
-    "static/css/main.e06d0084.css",
-    "static/js/main.6946be3d.js"
+    "static/css/main.945d228a.css",
+    "static/js/main.10e27689.js"
   ]
 }
