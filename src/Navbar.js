@@ -13,6 +13,7 @@ const Navbar = () => {
                 <Link to="/OT-Website">Home</Link>
                 <Link to="/Rush" >Rush</Link>
                 <Link to="/Brothers">Brothers</Link>
+                <Link to="/Merchandise">Merchandise</Link>
                 {/**
                 <div className='dropdown'>
                     <Link to="/Brothers">Brothers</Link>

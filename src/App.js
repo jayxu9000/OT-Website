@@ -3,7 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Rush from './Rush';
 import Brothers from './Brothers';
-import Alumni from './Alumni';
+import Merchandise from './Merchandise';
 import Footer from './Footer';
 import { Helmet } from 'react-helmet';
 
@@ -26,8 +26,8 @@ function App() {
             <Route path="/Brothers">
               <Brothers />
             </Route>
-            <Route path="/Alumni">
-              <Alumni />
+            <Route path="/Merchandise">
+              <Merchandise />
             </Route>
           </Switch>
         </div>

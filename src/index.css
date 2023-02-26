@@ -264,13 +264,13 @@
   padding-bottom: 3vw;
 }
 
-.Brothers_TopPage, .Rush_TopPage, .Alumni_TopPage {
+.MerchandiseTopPage, .Brothers_TopPage, .Rush_TopPage, .Alumni_TopPage {
   background-color: #ECECEC;
   padding: 5vw;
   
 }
 
-.Brothers_TopPage h1, .Rush_TopPage h1, .Alumni_TopPage h1 {
+.MerchandiseTopPage h1, .Brothers_TopPage h1, .Rush_TopPage h1, .Alumni_TopPage h1 {
   font-size: 100px;
   color:#800000;
 }
@@ -318,4 +318,19 @@
 
 .Pillars h1 {
   color: #800000;
+}
+
+.merchList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Merch {
+  padding: 3vw;
+}
+
+.Merch img {
+  width: 20vw;
+  height: auto; 
 }
